@@ -12,7 +12,7 @@ wordpress_db:
   volumes:
     - ./data/mysql:/var/lib/mysql
   environment:
-    MYSQL_ROOT_PASSWORD: Nditukulu_**77BravisStephane24214
+    MYSQL_ROOT_PASSWORD: 
 phpmyadmin:
   image: corbinu/docker-phpmyadmin
   links:
@@ -21,4 +21,4 @@ phpmyadmin:
     - 8181:80
   environment:
     MYSQL_USERNAME: root
-    MYSQL_ROOT_PASSWORD: Nditukulu_**77BravisStephane24214
+    MYSQL_ROOT_PASSWORD:
